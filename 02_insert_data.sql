@@ -1,0 +1,42 @@
+INSERT INTO customers VALUES (1001, 'John Doe', 'Kigali');
+INSERT INTO customers VALUES (1002, 'Alice Uwase', 'North');
+INSERT INTO customers VALUES (1003, 'Bob Gatore', 'East');
+INSERT INTO customers VALUES (1004, 'Claire M', 'Kigali');
+INSERT INTO customers VALUES (1005, 'David K', 'West');
+INSERT INTO customers VALUES (1006, 'Emma T', 'Kigali');
+INSERT INTO customers VALUES (1007, 'Frank R', 'North');
+INSERT INTO customers VALUES (1008, 'Grace L', 'East');
+INSERT INTO customers VALUES (1009, 'Henry M', 'West');
+INSERT INTO customers VALUES (1010, 'Irene K', 'Kigali');
+
+INSERT INTO products VALUES (2001, 'Caramel Crunch', 'Sweet');
+INSERT INTO products VALUES (2002, 'Cheesy Blast', 'Savory');
+INSERT INTO products VALUES (2003, 'Spicy Pop', 'Savory');
+INSERT INTO products VALUES (2004, 'Choco Pop', 'Sweet');
+INSERT INTO products VALUES (2005, 'Butter Classic', 'Savory');
+INSERT INTO products VALUES (2006, 'Sea Salt Twist', 'Savory');
+INSERT INTO products VALUES (2007, 'Honey Glaze', 'Sweet');
+INSERT INTO products VALUES (2008, 'Cinnamon Swirl', 'Sweet');
+
+INSERT INTO transactions VALUES (3001, 1001, 2001, DATE '2024-01-15', 25000);
+INSERT INTO transactions VALUES (3002, 1001, 2002, DATE '2024-01-20', 18000);
+INSERT INTO transactions VALUES (3003, 1002, 2001, DATE '2024-02-05', 22000);
+INSERT INTO transactions VALUES (3004, 1003, 2003, DATE '2024-02-10', 15000);
+INSERT INTO transactions VALUES (3005, 1004, 2004, DATE '2024-03-01', 30000);
+INSERT INTO transactions VALUES (3006, 1005, 2005, DATE '2024-03-15', 12000);
+INSERT INTO transactions VALUES (3007, 1001, 2003, DATE '2024-03-20', 20000);
+INSERT INTO transactions VALUES (3008, 1002, 2002, DATE '2024-04-05', 17000);
+INSERT INTO transactions VALUES (3009, 1006, 2001, DATE '2024-04-10', 28000);
+INSERT INTO transactions VALUES (3010, 1003, 2006, DATE '2024-04-15', 19000);
+INSERT INTO transactions VALUES (3011, 1007, 2007, DATE '2024-05-01', 21000);
+INSERT INTO transactions VALUES (3012, 1004, 2005, DATE '2024-05-10', 16000);
+INSERT INTO transactions VALUES (3013, 1008, 2008, DATE '2024-05-20', 23000);
+INSERT INTO transactions VALUES (3014, 1009, 2001, DATE '2024-06-05', 27000);
+INSERT INTO transactions VALUES (3015, 1010, 2003, DATE '2024-06-15', 14000);
+INSERT INTO transactions VALUES (3016, 1001, 2004, DATE '2024-06-20', 32000);
+INSERT INTO transactions VALUES (3017, 1002, 2007, DATE '2024-07-01', 18000);
+INSERT INTO transactions VALUES (3018, 1005, 2002, DATE '2024-07-10', 22000);
+INSERT INTO transactions VALUES (3019, 1006, 2006, DATE '2024-07-15', 19000);
+INSERT INTO transactions VALUES (3020, 1003, 2008, DATE '2024-07-20', 25000);
+
+COMMIT;
