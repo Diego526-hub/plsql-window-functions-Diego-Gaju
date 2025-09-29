@@ -64,7 +64,7 @@ SELECT
     RANK() OVER (PARTITION BY region ORDER BY total_revenue DESC) as rank
 FROM customer_revenues;
 
-<img width="655" height="226" alt="ranking_all_methoda" src="https://github.com/user-attachments/assets/85dc981f-994f-4f54-9ec6-986bd04374fa" />
+
 
 ## Aggregate Functions
 Implementation: SUM() OVER(), AVG() OVER() with frame clauses
@@ -79,7 +79,7 @@ SELECT
 FROM transactions
 GROUP BY TO_CHAR(sale_date, 'YYYY-MM');
 Results:
-https://screenshots/running_totals.png
+
 
 Interpretation: Tracked monthly sales trends with running totals and 3-month moving averages. This helps identify growth patterns and smooth out short-term fluctuations.
 
@@ -96,7 +96,7 @@ SELECT
      LAG(monthly_sales, 1) OVER (ORDER BY month)) * 100, 2) as growth_pct
 FROM monthly_sales;
 Results:
-https://screenshots/month_over_month_growth.png
+
 
 Interpretation: LAG and LEAD functions enable period-to-period comparisons. Calculated month-over-month growth percentages to identify seasonal patterns and business performance trends.
 
