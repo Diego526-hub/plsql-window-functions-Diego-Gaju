@@ -1,3 +1,7 @@
+##NAMES: Diego Gaju
+##ID: 27395
+##Group:A
+
 ## Step 1: Problem Definition
 **Business Context:** PopStop is an online popcorn store that delivers quality popcorn to the people's doorsteps.
 **Data Challenge:** PopStop faces challenges in indentifying the popcorn flavours that do well across different regions.
